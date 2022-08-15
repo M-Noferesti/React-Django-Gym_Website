@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 
 import os
-
+from utils.jwt_settings import SIMPLE_JWT
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'g3wj$p_awqror08jqf$#7sg0=sxn-vagvo@i-&hk^9+=w1t+#_'
-
+SIMPLE_JWT['SIGNING_KEY'] = SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',   
     'accounts.apps.AccountsConfig',
-
 ]
 
 MIDDLEWARE = [
