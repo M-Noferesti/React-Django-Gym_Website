@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'corsheaders',   
     'accounts.apps.AccountsConfig',
     'contact.apps.ContactConfig',
+    'classes.apps.ClassesConfig',
 ]
 
 MIDDLEWARE = [
