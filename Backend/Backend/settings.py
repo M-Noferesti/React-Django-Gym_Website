@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'contact.apps.ContactConfig',
     'classes.apps.ClassesConfig',
     'coaches.apps.CoachesConfig',
+    'enrolment.apps.EnrolmentConfig'
 ]
 
 MIDDLEWARE = [
