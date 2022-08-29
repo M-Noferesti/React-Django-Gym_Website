@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'classes.apps.ClassesConfig',
     'coaches.apps.CoachesConfig',
     'enrolment.apps.EnrolmentConfig',
-    'gallery.apps.GalleryConfig'
+    'gallery.apps.GalleryConfig',
+    'achievements.apps.AchievementsConfig'
 ]
 
 MIDDLEWARE = [
