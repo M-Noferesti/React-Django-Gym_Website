@@ -1,0 +1,92 @@
+export const images = [
+  {
+    url: "./images/gallery/gallery1.jpg",
+    title: "fitness class",
+    tag: "fitness",
+    id: 1,
+  },
+  {
+    url: "./images/gallery/gallery2.jpg",
+    title: "bodypump class",
+    tag: "bodybulding",
+    id: 2,
+  },
+  {
+    url: "./images/gallery/gallery3.jpg",
+    title: "body-buillding class",
+    tag: "bodyPump",
+    id: 3,
+  },
+  {
+    url: "./images/gallery/gallery4.jpg",
+    title: "fitness class",
+    tag: "bodybulding",
+    id: 4,
+  },
+  {
+    url: "./images/gallery/gallery5.jpg",
+    title: "fitness class",
+    tag: "spinning",
+    id: 5,
+  },
+  {
+    url: "./images/gallery/gallery6.jpg",
+    title: "fitness class",
+    tag: "trx",
+    id: 6,
+  },
+  {
+    url: "./images/gallery/gallery7.jpg",
+    title: "fitness class",
+    tag: "bodyPump",
+    id: 7,
+  },
+  {
+    url: "./images/gallery/gallery8.jpg",
+    title: "fitness class",
+    tag: "buffet",
+    id: 8,
+  },
+  {
+    url: "./images/gallery/gallery9.jpg",
+    title: "fitness class",
+    tag: "trx",
+    id: 9,
+  },
+  {
+    url: "./images/gallery/gallery10.jpg",
+    title: "fitness class",
+    tag: "buffet",
+    id: 10,
+  },
+  {
+    url: "./images/gallery/gallery11.jpg",
+    title: "fitness class",
+    tag: "fitness",
+    id: 11,
+  },
+  {
+    url: "./images/gallery/gallery12.jpg",
+    title: "fitness class",
+    tag: "yoga",
+    id: 12,
+  },
+  {
+    url: "./images/gallery/gallery13.jpg",
+    title: "fitness class",
+    tag: "yoga",
+    id: 13,
+  },
+  {
+    url: "./images/gallery/gallery14.jpg",
+    title: "fitness class",
+    tag: "spinning",
+    id: 14,
+  },
+  {
+    url: "./images/gallery/gallery15.jpg",
+    title: "fitness class",
+    tag: "fitness",
+    id: 15,
+  },
+];
