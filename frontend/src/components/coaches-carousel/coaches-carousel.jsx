@@ -34,6 +34,7 @@ function CoachesCarousel() {
     dispatch(coachesListAction(1));
   }, [dispatch]);
 
+
   return (
     <CoachesCarouselContainer className="container">
       <OwlCarousel
@@ -44,7 +45,8 @@ function CoachesCarousel() {
         responsive={responsive}
         dots
       >
-        {coaches.map((index) => (
+   
+        {!coaches ? <div>not found</div> : coaches.map((index) => (
           <div className="coach-card" key={index.id}>
             <img className="coach-img" src={index.photo} alt="coach" />
             <div className="coach-body">
